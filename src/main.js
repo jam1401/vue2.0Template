@@ -15,7 +15,7 @@ Vue.use(VueI18n)
 
 Vue.config.debug = true
 
-Vue.config.lang = 'fr'
+Vue.config.lang = 'en'
 
 Object.keys(locales).forEach(lang => {
   Vue.locale(lang, locales[lang])
