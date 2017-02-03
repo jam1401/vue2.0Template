@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <h2>{{ $t("example") }}</h2>
-    <p>{{ count }}</p>
+    <p class="counter">{{ count }}</p>
     <p>
-      <button @click="increment">+</button>
-      <button @click="decrement">-</button>
+      <button @click="increment" class="btn-increment">+</button>
+      <button @click="decrement" class="btn-decrement">-</button>
     </p>
     <div>
       <router-link to="/page1">Go to page1</router-link>
